@@ -1,13 +1,12 @@
-import React from 'react'
 import { NavBar } from './components/index.js'
-import { Outlet } from 'react-router-dom'
+import { Home } from './pages/index.js'
 
 function App() {
   return (
     <div>
       <NavBar />
       <main>
-        <Outlet />
+        <Home />
       </main>
     </div>
   )
